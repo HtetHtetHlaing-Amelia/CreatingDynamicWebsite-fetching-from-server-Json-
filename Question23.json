@@ -1,0 +1,91 @@
+{
+  "uuid": "fbe3cd01-c487-4d92-a3ca-02e170cad504",
+  "lastMigration": 29,
+  "name": "Question23",
+  "endpointPrefix": "",
+  "latency": 0,
+  "port": 3001,
+  "hostname": "",
+  "folders": [],
+  "routes": [
+    {
+      "uuid": "7c16f5f6-3054-4125-a89b-3e05eebdbe0f",
+      "type": "http",
+      "documentation": "",
+      "method": "get",
+      "endpoint": "object/info",
+      "responses": [
+        {
+          "uuid": "0ddef087-7863-4ab7-ab1b-56bf70ed849b",
+          "body": "{\r\n  \"body\": {\r\n    \"style\": \"height: 50vh;display: flex;flex-wrap: wrap;justify-content: center;align-items: center;\",\r\n    \"child\": [\r\n      {\r\n        \"element\": \"div\",\r\n        \"style\": \"width: 500px;height: 280px;background-color: #f542e6;border-radius: 12px;display: flex;flex-wrap: wrap;justify-content: space-around;align-items: flex-start;padding: 20px;\",\r\n        \"child\": [\r\n          {\r\n            \"element\": \"div\",\r\n            \"style\": \"width: 30%;\",\r\n            \"child\": [\r\n              {\r\n                \"element\": \"img\",\r\n                \"style\": \" width: 100%;\",\r\n                \"src\": \"profile.png\"\r\n              }\r\n            ]\r\n          },\r\n          {\r\n            \"element\": \"div\",\r\n            \"style\": \"line-height: 40px;\",\r\n            \"child\": [\r\n              {\r\n                \"element\": \"p\",\r\n                \"style\": \"font-size: x-large;\",\r\n                \"text\": \"Name :\",\r\n                \"child\": [\r\n                  {\r\n                    \"element\": \"span\",\r\n                    \"style\": \"font-size: x-large;\",\r\n                    \"text\": \" Amelia\"\r\n                  }\r\n                ]\r\n              },\r\n{\r\n                \"element\": \"p\",\r\n                \"style\": \"font-size: x-large;\",\r\n                \"text\": \"Country :\",\r\n                \"child\": [\r\n                  {\r\n                    \"element\": \"span\",\r\n                    \"style\": \"font-size: x-large;\",\r\n                    \"text\": \" Myanmar\"\r\n                  }\r\n                ]\r\n              },\r\n\r\n              {\r\n                \"element\": \"p\",\r\n                \"style\": \"font-size: x-large;\",\r\n                \"text\": \"Position :\",\r\n                \"child\": [\r\n                  {\r\n                    \"element\": \"span\",\r\n                    \"style\": \"font-size: x-large;\",\r\n                    \"text\": \" Programmer\"\r\n                  }\r\n                ]\r\n              },\r\n              {\r\n                \"element\": \"p\",\r\n                \"style\": \"font-size: x-large;\",\r\n                \"text\": \"Salary :\",\r\n                \"child\": [\r\n                  {\r\n                    \"element\": \"span\",\r\n                    \"style\": \"font-size: x-large;\",\r\n                    \"text\": \" $600\"\r\n                  }\r\n                ]\r\n              }\r\n            ]\r\n          }\r\n        ]\r\n      }\r\n    ]\r\n  }\r\n}",
+          "latency": 0,
+          "statusCode": 200,
+          "label": "",
+          "headers": [],
+          "bodyType": "INLINE",
+          "filePath": "",
+          "databucketID": "",
+          "sendFileAsBody": false,
+          "rules": [],
+          "rulesOperator": "OR",
+          "disableTemplating": false,
+          "fallbackTo404": false,
+          "default": true,
+          "crudKey": "id"
+        }
+      ],
+      "enabled": true,
+      "responseMode": null
+    }
+  ],
+  "rootChildren": [
+    {
+      "type": "route",
+      "uuid": "7c16f5f6-3054-4125-a89b-3e05eebdbe0f"
+    }
+  ],
+  "proxyMode": false,
+  "proxyHost": "",
+  "proxyRemovePrefix": false,
+  "tlsOptions": {
+    "enabled": false,
+    "type": "CERT",
+    "pfxPath": "",
+    "certPath": "",
+    "keyPath": "",
+    "caPath": "",
+    "passphrase": ""
+  },
+  "cors": true,
+  "headers": [
+    {
+      "key": "Content-Type",
+      "value": "application/json"
+    },
+    {
+      "key": "Access-Control-Allow-Origin",
+      "value": "http://127.0.0.1:5500"
+    },
+    {
+      "key": "Access-Control-Allow-Methods",
+      "value": "GET,POST,PUT,PATCH,DELETE,HEAD,OPTIONS"
+    },
+    {
+      "key": "Access-Control-Allow-Headers",
+      "value": "Content-Type, Origin, Accept, Authorization, Content-Length, X-Requested-With"
+    }
+  ],
+  "proxyReqHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "proxyResHeaders": [
+    {
+      "key": "",
+      "value": ""
+    }
+  ],
+  "data": []
+}
